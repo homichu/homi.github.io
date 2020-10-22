@@ -21,15 +21,15 @@
     var CONFIG = {"hostname":"github.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="一、环境准备1.github github账号  git环境安装 1. github新建一个库  库名格式为: username.github.io &#x2F;&#x2F;非常重要！！！ 参考GitHub Pages2. 添加ssh秘钥  2.nodejs 建议使用nvm  3.hexo 全局安装hexo  $ npm install -g hexo-cli  $ hexo  二、本地试运行    $ hexo i">
+  <meta name="description" content="一、环境准备1.github github账号 git环境安装1. github新建一个库  库名格式为: username.github.io &#x2F;&#x2F;非常重要！！！参考GitHub Pages2. 添加ssh秘钥2.nodejs 建议使用nvm  3.hexo 全局安装hexo  $ npm install -g hexo-cli  $ hexo  二、本地试运行    $ hexo init Y">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo + github &#x3D; 免费个人博客">
 <meta property="og:url" content="http://github.com/2020/07/22/%E7%94%A8hexo%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2/index.html">
-<meta property="og:site_name" content="homi">
-<meta property="og:description" content="一、环境准备1.github github账号  git环境安装 1. github新建一个库  库名格式为: username.github.io &#x2F;&#x2F;非常重要！！！ 参考GitHub Pages2. 添加ssh秘钥  2.nodejs 建议使用nvm  3.hexo 全局安装hexo  $ npm install -g hexo-cli  $ hexo  二、本地试运行    $ hexo i">
+<meta property="og:site_name" content="闲云野鹤">
+<meta property="og:description" content="一、环境准备1.github github账号 git环境安装1. github新建一个库  库名格式为: username.github.io &#x2F;&#x2F;非常重要！！！参考GitHub Pages2. 添加ssh秘钥2.nodejs 建议使用nvm  3.hexo 全局安装hexo  $ npm install -g hexo-cli  $ hexo  二、本地试运行    $ hexo init Y">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-07-22T03:34:41.000Z">
-<meta property="article:modified_time" content="2020-10-22T10:08:45.246Z">
+<meta property="article:modified_time" content="2020-10-22T10:21:41.667Z">
 <meta property="article:author" content="homi chu">
 <meta property="article:tag" content="其他">
 <meta name="twitter:card" content="summary">
@@ -47,7 +47,7 @@
   };
 </script>
 
-  <title>hexo + github = 免费个人博客 | homi</title>
+  <title>hexo + github = 免费个人博客 | 闲云野鹤</title>
   
 
 
@@ -98,9 +98,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">homi</h1>
+      <h1 class="site-title">闲云野鹤</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">一杯茶 一包烟 一行代码写一天</p>
   </div>
 
   <div class="site-nav-right">
@@ -171,7 +172,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="homi">
+      <meta itemprop="name" content="闲云野鹤">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -192,7 +193,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-10-22 18:08:45" itemprop="dateModified" datetime="2020-10-22T18:08:45+08:00">2020-10-22</time>
+                <time title="修改时间：2020-10-22 18:21:41" itemprop="dateModified" datetime="2020-10-22T18:21:41+08:00">2020-10-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -230,13 +231,10 @@
 
       
         <h2 id="一、环境准备"><a href="#一、环境准备" class="headerlink" title="一、环境准备"></a>一、环境准备</h2><h4 id="1-github"><a href="#1-github" class="headerlink" title="1.github"></a>1.github</h4><ul>
-<li><p><a href="https://github.com/">github账号</a></p>
-</li>
-<li><p><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener">git环境安装</a></p>
-<h5 id="1-github新建一个库"><a href="#1-github新建一个库" class="headerlink" title="1. github新建一个库"></a>1. github新建一个库</h5><p>  库名格式为: username.github.io //非常重要！！！</p>
-<h5 id="参考GitHub-Pages"><a href="#参考GitHub-Pages" class="headerlink" title="参考GitHub Pages"></a>参考<a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></h5><h5 id="2-添加ssh秘钥"><a href="#2-添加ssh秘钥" class="headerlink" title="2. 添加ssh秘钥"></a>2. <a href="https://hotkang.cn/2018/Github%E6%B7%BB%E5%8A%A0SSH%E5%AF%86%E9%92%A5/" target="_blank" rel="noopener">添加ssh秘钥</a></h5></li>
+<li><a href="https://github.com/">github账号</a></li>
+<li><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener">git环境安装</a><h5 id="1-github新建一个库"><a href="#1-github新建一个库" class="headerlink" title="1. github新建一个库"></a>1. github新建一个库</h5></li>
 </ul>
-<h4 id="2-nodejs"><a href="#2-nodejs" class="headerlink" title="2.nodejs"></a>2.nodejs</h4><ul>
+<h6 id="库名格式为-username-github-io-非常重要！！！"><a href="#库名格式为-username-github-io-非常重要！！！" class="headerlink" title="库名格式为: username.github.io //非常重要！！！"></a>库名格式为: username.github.io //非常重要！！！</h6><h6 id="参考GitHub-Pages"><a href="#参考GitHub-Pages" class="headerlink" title="参考GitHub Pages"></a>参考<a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></h6><h5 id="2-添加ssh秘钥"><a href="#2-添加ssh秘钥" class="headerlink" title="2. 添加ssh秘钥"></a>2. <a href="https://hotkang.cn/2018/Github%E6%B7%BB%E5%8A%A0SSH%E5%AF%86%E9%92%A5/" target="_blank" rel="noopener">添加ssh秘钥</a></h5><h4 id="2-nodejs"><a href="#2-nodejs" class="headerlink" title="2.nodejs"></a>2.nodejs</h4><ul>
 <li><a href="https://github.com/coreybutler/nvm-windows/releases">建议使用nvm</a></li>
 </ul>
 <h4 id="3-hexo"><a href="#3-hexo" class="headerlink" title="3.hexo"></a>3.hexo</h4><ul>
@@ -393,7 +391,7 @@ $ hexo d</code></pre>
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、环境准备"><span class="nav-number">1.</span> <span class="nav-text">一、环境准备</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-github"><span class="nav-number">1.0.1.</span> <span class="nav-text">1.github</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-github新建一个库"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">1. github新建一个库</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#参考GitHub-Pages"><span class="nav-number">1.0.1.2.</span> <span class="nav-text">参考GitHub Pages</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-添加ssh秘钥"><span class="nav-number">1.0.1.3.</span> <span class="nav-text">2. 添加ssh秘钥</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-nodejs"><span class="nav-number">1.0.2.</span> <span class="nav-text">2.nodejs</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-hexo"><span class="nav-number">1.0.3.</span> <span class="nav-text">3.hexo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-修改-config-yml文件"><span class="nav-number">1.0.4.</span> <span class="nav-text">1.  修改&#x2F;_config.yml文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-本地运行"><span class="nav-number">1.0.5.</span> <span class="nav-text">2.  本地运行</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#可在浏览器输入地址-http-localhost-4000-进行查看"><span class="nav-number">1.0.5.1.</span> <span class="nav-text">可在浏览器输入地址 http:&#x2F;&#x2F;localhost:4000 进行查看</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、远程部署-amp-运行"><span class="nav-number">2.</span> <span class="nav-text">三、远程部署&amp;运行</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#可在浏览器输入博客地址-https-YOURNAME-github-io-进行查看"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">可在浏览器输入博客地址 https:&#x2F;&#x2F;YOURNAME.github.io&#x2F; 进行查看</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-下载next主题"><span class="nav-number">2.0.1.</span> <span class="nav-text">1. 下载next主题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-复制其中名称为next的文件夹到你博客文件的themes下"><span class="nav-number">2.0.2.</span> <span class="nav-text">2. 复制其中名称为next的文件夹到你博客文件的themes下</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-修改博客文件根目录下的-config-yml-将主题改为next"><span class="nav-number">2.0.3.</span> <span class="nav-text">3. 修改博客文件根目录下的_config.yml,将主题改为next</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-修改next文件根目录下的-config-yml-可选择四种主题"><span class="nav-number">2.0.4.</span> <span class="nav-text">4. 修改next文件根目录下的_config.yml,可选择四种主题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-创建"><span class="nav-number">2.0.5.</span> <span class="nav-text">1.创建</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#可在博客文件夹下的source-post查看你新建的markdown文件"><span class="nav-number">2.0.5.1.</span> <span class="nav-text">可在博客文件夹下的source&#x2F;_post查看你新建的markdown文件</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-编写内容"><span class="nav-number">2.0.6.</span> <span class="nav-text">2.编写内容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-更新hexo部署"><span class="nav-number">2.0.7.</span> <span class="nav-text">3.更新hexo部署</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、环境准备"><span class="nav-number">1.</span> <span class="nav-text">一、环境准备</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-github"><span class="nav-number">1.0.1.</span> <span class="nav-text">1.github</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-github新建一个库"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">1. github新建一个库</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#库名格式为-username-github-io-非常重要！！！"><span class="nav-number">1.0.1.1.1.</span> <span class="nav-text">库名格式为: username.github.io &#x2F;&#x2F;非常重要！！！</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#参考GitHub-Pages"><span class="nav-number">1.0.1.1.2.</span> <span class="nav-text">参考GitHub Pages</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-添加ssh秘钥"><span class="nav-number">1.0.1.2.</span> <span class="nav-text">2. 添加ssh秘钥</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-nodejs"><span class="nav-number">1.0.2.</span> <span class="nav-text">2.nodejs</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-hexo"><span class="nav-number">1.0.3.</span> <span class="nav-text">3.hexo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-修改-config-yml文件"><span class="nav-number">1.0.4.</span> <span class="nav-text">1.  修改&#x2F;_config.yml文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-本地运行"><span class="nav-number">1.0.5.</span> <span class="nav-text">2.  本地运行</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#可在浏览器输入地址-http-localhost-4000-进行查看"><span class="nav-number">1.0.5.1.</span> <span class="nav-text">可在浏览器输入地址 http:&#x2F;&#x2F;localhost:4000 进行查看</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、远程部署-amp-运行"><span class="nav-number">2.</span> <span class="nav-text">三、远程部署&amp;运行</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#可在浏览器输入博客地址-https-YOURNAME-github-io-进行查看"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">可在浏览器输入博客地址 https:&#x2F;&#x2F;YOURNAME.github.io&#x2F; 进行查看</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-下载next主题"><span class="nav-number">2.0.1.</span> <span class="nav-text">1. 下载next主题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-复制其中名称为next的文件夹到你博客文件的themes下"><span class="nav-number">2.0.2.</span> <span class="nav-text">2. 复制其中名称为next的文件夹到你博客文件的themes下</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-修改博客文件根目录下的-config-yml-将主题改为next"><span class="nav-number">2.0.3.</span> <span class="nav-text">3. 修改博客文件根目录下的_config.yml,将主题改为next</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-修改next文件根目录下的-config-yml-可选择四种主题"><span class="nav-number">2.0.4.</span> <span class="nav-text">4. 修改next文件根目录下的_config.yml,可选择四种主题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-创建"><span class="nav-number">2.0.5.</span> <span class="nav-text">1.创建</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#可在博客文件夹下的source-post查看你新建的markdown文件"><span class="nav-number">2.0.5.1.</span> <span class="nav-text">可在博客文件夹下的source&#x2F;_post查看你新建的markdown文件</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-编写内容"><span class="nav-number">2.0.6.</span> <span class="nav-text">2.编写内容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-更新hexo部署"><span class="nav-number">2.0.7.</span> <span class="nav-text">3.更新hexo部署</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
